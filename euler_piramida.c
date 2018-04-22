@@ -34,12 +34,6 @@ int main(){
         }
     }
 
-    for(int i = 0; i<N; i++){
-        for(int j = 0; j<N; j++){
-            printf("%4d ", *(*(tab+i)+j));
-        }
-        printf("\n");
-    }
     int f;
     for(int i = 0; i<N; i++){
         f = max_suma(tab,N-1,i);
